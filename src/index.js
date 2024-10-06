@@ -1,9 +1,10 @@
 import "./styles.css";
-import Home from "./home";
-import Menu from "./menu";
-import About from "./about";
-import Contact from "./contact";
+import Home from "./pages/home";
+import Menu from "./pages/menu";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 
+Home();
 const pageContent = document.querySelector("#content");
 const nav = document.querySelector("nav");
 const navButtons = nav.querySelectorAll("button");
