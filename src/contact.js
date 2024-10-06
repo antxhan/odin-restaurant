@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Contact() {
   const container = document.createElement("div");
   const title = document.createElement("h1");
-  title.innerText = "Home";
+  title.innerText = "Contact";
   container.appendChild(title);
   return container;
 }
