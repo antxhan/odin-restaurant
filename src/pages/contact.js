@@ -1,8 +1,10 @@
+// import image from "../assets/images/home.jpg";
+import Image from "../components/Image";
+import Title from "../components/Title";
+
+const pageContent = document.querySelector("#content");
+
 export default function Contact() {
-  const pageContent = document.querySelector("#content");
-  const container = document.createElement("div");
-  const title = document.createElement("h1");
-  title.innerText = "Contact";
-  container.appendChild(title);
-  pageContent.appendChild(container);
+  Title("La Bella Tavola", pageContent);
+  // Image(image, "La Bella Travola restaurant", pageContent);
 }

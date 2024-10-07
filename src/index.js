@@ -20,7 +20,7 @@ navButtons.forEach((button) => {
       Menu();
     } else if (buttonText === "contact") {
       Contact();
-    } else if (buttonText === "reserve") {
+    } else if (buttonText === "reserve a table") {
       Reserve();
     }
   });
