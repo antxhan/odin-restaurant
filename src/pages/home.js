@@ -5,13 +5,10 @@ import Title from "../components/Title";
 const pageContent = document.querySelector("#content");
 
 export default function Home() {
-  Title("Bear Trap", pageContent);
-  const subtitle = document.createElement("h2");
-  subtitle.innerText = "Street Food from Japan";
-  pageContent.appendChild(subtitle);
-  Image(image, "Bear Trap restaurant", pageContent);
+  Title("La Bella Tavola", pageContent);
+  Image(image, "La Bella Travola restaurant", pageContent);
   const paragraph = document.createElement("p");
-  paragraph.innerText =
-    "We serve the everyday food that locals in Japan enjoy regularly (and no, we don't eat sushi every day!). Our unique menu features specialized recipes, crafted to highlight the best of local ingredients. You won't find anything like us anywhere else in Sweden!";
-  pageContent.appendChild(paragraph);
+  // paragraph.innerText =
+  //   "Experience the true taste of Italy at La Bella Tavola, where every dish is crafted with passion. From hand-rolled pasta to wood-fired pizzas, our menu brings the warmth of Italian tradition to your table. Whether you’re enjoying a cozy meal for two or celebrating with family, every bite is a journey to the heart of Italy. Buon appetito!";
+  // pageContent.appendChild(paragraph);
 }
