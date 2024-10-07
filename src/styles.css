@@ -23,12 +23,18 @@ img {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 menu {
   display: flex;
   list-style: none;
   gap: 0.5rem;
+  & li:last-child button {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
 }
 
 button {
