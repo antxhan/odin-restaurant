@@ -1,6 +1,9 @@
-export default function Image(url, alt, container) {
+export default function Image(url, alt, container = null) {
   const image = document.createElement("img");
   image.src = url;
   image.alt = alt;
-  container.appendChild(image);
+  if (container) {
+    container.appendChild(image);
+  }
+  return image;
 }

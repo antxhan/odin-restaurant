@@ -6,5 +6,8 @@ const pageContent = document.querySelector("#content");
 
 export default function Home() {
   Title("La Bella Tavola", pageContent);
-  Image(image, "La Bella Travola restaurant", pageContent);
+  const imgDiv = document.createElement("div");
+  imgDiv.className = "img-div";
+  Image(image, "La Bella Travola restaurant", imgDiv);
+  pageContent.appendChild(imgDiv);
 }
