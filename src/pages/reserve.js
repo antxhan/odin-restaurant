@@ -1,5 +1,3 @@
-import image from "../assets/images/register.jpg";
-import Image from "../components/Image";
 import Title from "../components/Title";
 
 const pageContent = document.querySelector("#content");
